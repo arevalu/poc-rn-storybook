@@ -23,9 +23,6 @@
     "@babel/core": "7.21.8",
     "@babel/preset-env": "7.21.5",
     "@babel/preset-typescript": "7.21.5",
-    "@react-native-async-storage/async-storage": "1.18.1",
-    "@react-native-community/datetimepicker": "7.0.1",
-    "@react-native-community/slider": "4.4.2",
     "@storybook/addon-actions": "6.5.16",
     "@storybook/addon-controls": "6.5.16",
     "@storybook/addon-essentials": "7.0.10",
@@ -54,7 +51,6 @@
     "ts-loader": "9.4.2",
     "ts-node": "10.9.1",
     "tsconfig-paths-webpack-plugin": "4.0.1",
-    "tsconfig-replace-paths": "0.0.14",
     "typescript": "5.0.4",
     "webpack": "5.82.0"
   },
