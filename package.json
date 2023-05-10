@@ -50,7 +50,6 @@
     "react-dom": "18.2.0",
     "react-native-builder-bob": "0.20.4",
     "react-native-safe-area-context": "4.5.2",
-    "react-native-storybook-loader": "2.0.5",
     "storybook": "7.0.10",
     "ts-loader": "9.4.2",
     "ts-node": "10.9.1",
@@ -61,10 +60,6 @@
   },
   "scripts": {
     "prepack": "bob build",
-    "prepare": "bob build && tsconfig-replace-paths --project tsconfig.json -s ./src -o ./lib/commonjs && tsconfig-replace-paths --project tsconfig.json -s ./src -o ./lib/module",
-    "prestorybook": "rnstl",
-    "storybook-generate": "sb-rn-get-stories",
-    "storybook-watch": "sb-rn-watcher",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "typescript": "tsc --noEmit"
@@ -82,14 +77,5 @@
       "module",
       "typescript"
     ]
-  },
-  "config": {
-    "react-native-storybook-loader": {
-      "searchDir": [
-        "./src/components"
-      ],
-      "pattern": "**/*.stories.tsx",
-      "outputFile": "./storybook/storyLoader.js"
-    }
   }
 }
