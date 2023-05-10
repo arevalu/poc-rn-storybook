@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "mobile": ["./src/index"]
+    },
+    "baseUrl": "./src",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "skipLibCheck": true,
+    "lib": ["es6", "dom", "es2022"],
+    "module": "esnext",
+    "target": "esnext",
+    "jsx": "react",
+    "types": ["@types/styled-components-react-native"]
+  },
+  "include": ["src/"],
+  "exclude": ["node_modules"]
+}
