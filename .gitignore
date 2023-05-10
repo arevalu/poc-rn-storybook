@@ -3,3 +3,6 @@ lib
 
 # Storybook
 storybook/storyLoader.js
+
+# Yarn
+.yarn/cache
